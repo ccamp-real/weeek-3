@@ -20,18 +20,22 @@
 }
 #one{
     margin: 15px;
+    text-align: center;
 }
 #two{
     margin: 15px;
     padding:20px 20px 20px 0px;
+    text-align: center;
 }
 #three{
     margin-right: 5px;
     padding-left: 25px;
     padding-right: 20px;
+    text-align: center;
 }
 #four{
-    margin: 15px 300px 50px 300px;
+    margin: 15px 400px 50px 400px;
+    text-align: center;
 }
 
 #middle{
