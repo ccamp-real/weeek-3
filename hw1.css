@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wan{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    z-index: 5px;
+}
+.top{
+    padding-top: 45px;
+}
+.top p{
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+}
+#one{
+    margin: 15px;
+}
+#two{
+    margin: 15px;
+    padding:20px 20px 20px 0px;
+}
+#three{
+    margin-right: 5px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+#four{
+    margin: 15px 300px 50px 300px;
+}
+
+#middle{
+}
+
+#middle2{
+    margin-top: 50px;
+}
+
+#furst{
+    margin-top: 35px;
+    margin-bottom: 250px;
+    margin-left: 60px;
+    margin-right: 60%;
+    height: 150px;
+    background-color: black;
+    display:
+}
+
+#secund{
+    margin-top: 35px;
+    margin-bottom: 250px;
+    margin-right: 60px;
+    margin-left:60%;
+    height: 150px;
+    background-color: black;
+}
