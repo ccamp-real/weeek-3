@@ -49,7 +49,7 @@
 
 #furst{
     height: 150px;
-    width: 500px;
+    width: 700px;
     background-color: black;
     float: left;
     display:inline-block;
@@ -59,7 +59,7 @@
 #secund{
     float: right;
     height: 150px;
-    width: 500px;
+    width: 700px;
     margin-right: 100px;
     background-color: black;
     display:inline-block;
@@ -67,9 +67,69 @@
 
 #thurd{
     height: 150px;
-    width: 500px;
+    width: 1520px;
     background-color: black;
     display: block;
     align-items: center;
-    margin: 250px auto 0 auto;
+    margin: 250px auto 70px auto;
+}
+
+#link{
+    display: block;
+    height: 20px;
+    width: 900px;
+    margin: auto auto;
+    border: 1px red solid;
+    text-align: center;
+    color: blue;
+}
+#p1{
+    display: inline-block;
+    text-align: center;
+    border: 1px red solid;
+    margin-left: 0px;
+
+}
+
+#p2{
+    display: inline-block;
+    text-align: center;
+    border: 1px red solid;
+
+}
+
+#p3{
+    display: block;
+    border: 1px red solid;
+    margin: 20px 100px 50px 0px;
+}
+
+#lsthead{
+    margin-top: 50px;
+}
+
+.relative{
+    height: 400px;
+    width: 400px;
+    background-color: #333;
+    position: relative;
+    margin-top: none;
+    margin-left: 150px;
+}
+.absolute{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #ccc;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.fixed{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
 }
