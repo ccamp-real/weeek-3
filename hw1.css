@@ -33,14 +33,18 @@
 #four{
     margin: 15px 300px 50px 300px;
 }
-/* 
+
 #middle{
     display: block;
-} */
+}
 
 #middle2{
     margin-top: 50px;
     display: block;
+}
+
+#middle3{
+    
 }
 
 #furst{
@@ -61,11 +65,11 @@
     display:inline-block;
 }
 
-/* #thurd{
+#thurd{
     height: 150px;
     width: 500px;
     background-color: black;
     display: block;
     align-items: center;
-    position: relative;
-} */
+    margin: 250px auto 0 auto;
+}
