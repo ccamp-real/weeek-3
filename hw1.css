@@ -33,29 +33,39 @@
 #four{
     margin: 15px 300px 50px 300px;
 }
-
+/* 
 #middle{
-}
+    display: block;
+} */
 
 #middle2{
     margin-top: 50px;
+    display: block;
 }
 
 #furst{
-    margin-top: 35px;
-    margin-bottom: 250px;
-    margin-left: 60px;
-    margin-right: 60%;
     height: 150px;
+    width: 500px;
     background-color: black;
-    display:
+    float: left;
+    display:inline-block;
+    margin-left: 100px;
 }
 
 #secund{
-    margin-top: 35px;
-    margin-bottom: 250px;
-    margin-right: 60px;
-    margin-left:60%;
+    float: right;
     height: 150px;
+    width: 500px;
+    margin-right: 100px;
     background-color: black;
+    display:inline-block;
 }
+
+/* #thurd{
+    height: 150px;
+    width: 500px;
+    background-color: black;
+    display: block;
+    align-items: center;
+    position: relative;
+} */
