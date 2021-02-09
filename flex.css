@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: teal;
+}
+
+/* Nav Bar */
+
+nav div{
+    background-color: black;
+    color: teal;
+    font-size: 2rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    scroll-behavior: smooth;
+    z-index: 2;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+ul li{
+    margin: 20px;
+    }
+
+li:hover{
+    color: gold;
+}
+
+/* Me trying to get this meme to be my about page */
+#aliens{
+    background-repeat: no-repeat;
+    background: url(https://i.kym-cdn.com/photos/images/newsfeed/000/183/103/alens.jpg);
+    background-size: cover;
+}
+
+/* First Page */
+
+#showcase{
+    display: flex;
+    background-color: teal;
+    height: 88vh;
+    margin-top: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 3rem;
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* The Header */
+
+section div h1{
+    margin-bottom: 50px;
+    font-size: 6rem;
+}
+
+/* The Paragraph */
+
+section div p{
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* The Button */
+
+.btn-lg{
+    padding: 40px 120px 40px 120px;
+    border-radius: 80px;
+    font-family: sans-serif;
+    color: teal;
+    background-color: black;
+    border: black;
+    font-size: 2.5rem;
+}
+
+section div button:hover{
+    color: gold;
+    cursor: pointer;
+    background-color: rgb(0, 12, 12);
+}
+
+/* The Second Page */
+
+#cards{
+    background-color: gold;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#more{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-size: 3rem;
+}
+
+.lead{
+    font-size: 2rem;
+    font-style: oblique;
+    margin-top: 30px; 
+    width: 90%;
+}
+
+section div div div p{
+    font-size: 1rem;
+    width: 90%;
+}
+
+section div div div{
+    display: flex;
+    margin-top: 80px;
+}
+
+.boxes{
+    border: 4px black solid;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section div{
+    display: flex;
+}
+
+.btn{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    color: teal;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    color: gold;
+    background-color: rgb(0 12 12);
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+}
+
+footer div p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
