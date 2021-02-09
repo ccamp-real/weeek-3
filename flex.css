@@ -27,6 +27,10 @@ nav div{
     z-index: 2;
 }
 
+nav div h1:hover{
+    color: gold;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -141,11 +145,13 @@ section div div div{
     border: 4px black solid;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 30px;
+    height: 60%;
+    /* margin-top: 30px; */
     font-size: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-bottom: 2rem;
 }
 
 section div{
@@ -184,3 +190,24 @@ footer div p{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+/* About Page */
+
+.aliens{
+    height: 100vh;
+    width: 100%;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzOo11i46NlXsdiFaEKCD9fXCsC7eXvk91NQ&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzOo11i46NlXsdiFaEKCD9fXCsC7eXvk91NQ&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzOo11i46NlXsdiFaEKCD9fXCsC7eXvk91NQ&usqp=CAUv);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+a{
+    color: teal;
+    text-decoration: none; 
+    border: none;
+}
+a:hover{
+    color: gold;
+}  
